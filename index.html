@@ -3,33 +3,115 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My GitHub Pages Website</title>
+    <title>DiddyOS</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f9f9f9;
+            color: #333;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+            background: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            color: #666;
+        }
+
+        .hero .emoji {
+            font-size: 2rem;
+        }
+
+        .content {
+            padding: 20px;
+            background: #000;
+            color: #fff;
+        }
+
+        .content h2 {
+            text-align: center;
+            font-size: 2rem;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            text-decoration: underline;
+        }
+
+        .table {
+            display: flex;
+            justify-content: space-around;
+            margin: 0 auto;
+            max-width: 800px;
+        }
+
+        .table div {
+            width: 45%;
+            text-align: left;
+        }
+
+        .table ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .table ul li {
+            margin: 10px 0;
+        }
+
+        .table a {
+            color: #4faaff;
+            text-decoration: none;
+        }
+
+        .table a:hover {
+            text-decoration: underline;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 10px 0;
+            font-size: 0.9rem;
+            color: #888;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Website</h1>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <section id="home">
-        <h2>Home</h2>
-        <p>This is the home page content.</p>
-    </section>
-    <section id="about">
-        <h2>About</h2>
-        <p>This is the about page content.</p>
-    </section>
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>This is the contact page content.</p>
-    </section>
-    <footer>
-        <p>&copy; 2025 My Website</p>
-    </footer>
+    <div class="hero">
+        <h1>DiddyOS, made for all <span class="emoji">🍑</span></h1>
+        <p>Scroll Down</p>
+    </div>
+
+    <div class="content">
+        <h2>Table of Contents</h2>
+        <div class="table">
+            <div>
+                <h3>Games</h3>
+                <ul>
+                    <li><a href="#">The Jonkler (Oscar Rigg)</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Hall of Diddy <span class="emoji">🍑</span></h3>
+                <ul>
+                    <li><a href="#">P. Diddy (Daniel Lad)</a></li>
+                    <li><a href="#">Zayne Staussi</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        © 2025 DiddyOS Team
+    </div>
 </body>
 </html>
